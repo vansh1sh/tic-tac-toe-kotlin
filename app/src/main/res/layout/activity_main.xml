@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/skranji"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="44dp" />
+
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button1"
+            android:textStyle="bold"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:textSize="46sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/skranji" />
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button2"
+            android:layout_width="50pt"
+            android:textStyle="bold"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:textColor="@color/black"
+            android:fontFamily="@font/skranji"
+            android:textSize="46sp" />
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button3"
+            android:layout_width="50pt"
+            android:textColor="@color/black"
+            android:fontFamily="@font/skranji"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:textSize="46sp"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button4"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:fontFamily="@font/skranji"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:textColor="@color/black"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button5"
+            android:textColor="@color/black"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:fontFamily="@font/skranji"
+            android:textSize="46sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button6"
+            android:layout_width="50pt"
+            android:textColor="@color/black"
+            android:fontFamily="@font/skranji"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button7"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:textColor="@color/black"
+            android:fontFamily="@font/skranji"
+            android:layout_margin="2dp"
+            android:onClick="buttonClick"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+        android:gravity="center"
+            android:id="@+id/button8"
+            android:layout_width="50pt"
+            android:textColor="@color/black"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/skranji"
+            android:onClick="buttonClick"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="@drawable/blank_background_tile"
+            android:gravity="center"
+            android:id="@+id/button9"
+            android:textColor="@color/black"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/skranji"
+            android:onClick="buttonClick"
+            android:textSize="46sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+</TableLayout>

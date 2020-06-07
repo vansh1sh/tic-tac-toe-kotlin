@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/skranji"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="52dp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_margin="28dp"
+            android:background="@drawable/blank_background_tile"
+            android:padding="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/vsplayer"
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:text="  vs Computer"
+                android:buttonTint="@color/colorBackground"
+                android:textColor="@color/colorBackground" />
+
+            <RadioButton
+                android:id="@+id/vscomp"
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  vs Player"
+                android:checked="true"
+                android:gravity="center"
+                android:textSize="16dp"
+
+                android:layout_marginTop="32dp"
+                android:buttonTint="@color/colorBackground"
+                android:textColor="@color/colorBackground" />
+
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/start_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/border_btn"
+        android:fontFamily="@font/skranjireg"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+</LinearLayout>

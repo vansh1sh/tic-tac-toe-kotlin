@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorBackground"
+    tools:context=".SplashScreenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/skranji"
+        android:gravity="center"
+        android:textSize="52dp"
+        android:textColor="@color/white"
+        android:text="@string/app_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/crossanim"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        app:lottie_speed="0.9"
+        app:lottie_rawRes="@raw/cross"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/zeroanim"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        app:lottie_speed="0.9"
+        app:lottie_rawRes="@raw/zero"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="@font/skranjireg"
+        android:gravity="center"
+        android:background="@drawable/border_btn"
+        android:padding="5dp"
+        android:textSize="36dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:text="@string/letsgo"/>
+</RelativeLayout>
