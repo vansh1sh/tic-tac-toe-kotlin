@@ -15,13 +15,14 @@ vs Player
 
 
 ## Project Implementation details
-I have three activities. 
+I have three activities :-
+
 *SplashScreenActivity* - This screen uses LottieAnimationView to show the animating objects.Also, I have used ValueAnimator and created AnimatorSet for animations.
+
 *GameDetailsActivity* - We have a RadioGroup to select between the two modes. (vs comp or vs player) The intent to the next screen carries the string name of the mode. 
+
 *MainActivity* - Game’s main logic. It gets the mode with intent. When the game ends, a dialog pops up to choose between new game/ restart game
 
-
-README.md - refer screenshot for alignment
 
 # Game Screenshots
 
